@@ -17,6 +17,10 @@ return [
         'label' => 'Dokumentum',
         'plural_label' => 'Dokumentumok',
     ],
+    'maintenancelogs' => [
+        'label' => 'Karbantartási napló',
+        'plural_label' => 'Karbantartási naplók',
+    ],   
     'worksheets' => [
         'label' => 'Munkalap',
         'plural_label' => 'Munkalapok',

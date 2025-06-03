@@ -29,4 +29,13 @@ return [
     'finish_date' => 'Finish date',
     'updated_at' => 'Updated at',
     'attachments' => 'Attachments',
+
+    //Továbbfejlesztés
+    'device' => 'Device',
+    'next_date' => 'Next maintenance date',
+    'status' => 'Status',
+
+    'completed' => 'Completed',
+    'pending' => 'Pending',
+    'skipped' => 'Skipped',
 ];

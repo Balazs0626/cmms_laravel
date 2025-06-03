@@ -17,6 +17,10 @@ return [
         'label' => 'Document',
         'plural_label' => 'Documents',
     ],
+    'maintenancelogs' => [
+        'label' => 'Maintenance Log',
+        'plural_label' => 'Maintenance Logs',
+    ],    
     'worksheets' => [
         'label' => 'Worksheet',
         'plural_label' => 'Worksheets',
