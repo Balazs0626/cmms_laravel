@@ -38,4 +38,7 @@ return [
     'completed' => 'Completed',
     'pending' => 'Pending',
     'skipped' => 'Skipped',
+
+    'maintenance' => 'Maintenance',
+    'unknown' => 'Unknown device',
 ];

@@ -38,4 +38,7 @@ return [
     'completed' => 'Befejezve',
     'pending' => 'Folyamatban',
     'skipped' => 'Kihagyva',
+
+    'maintenance' => 'Karbantartás',
+    'unknown' => 'Ismeretlen eszköz',
 ];
