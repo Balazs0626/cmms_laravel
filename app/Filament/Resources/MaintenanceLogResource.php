@@ -106,9 +106,6 @@ class MaintenanceLogResource extends Resource
                 Tables\Filters\SelectFilter::make('status')
                     ->label(__('fields.status'))
                     ->options([
-                        /* 'completed' => 'Befejezve',
-                        'pending' => 'Folyamatban',
-                        'skipped' => 'Kihagyva', */
                         'completed' => __('fields.completed'),
                         'pending' => __('fields.pending'),
                         'skipped' => __('fields.skipped'),

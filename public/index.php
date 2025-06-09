@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 
+$_SERVER['REDIRECT_STATUS'] = $_SERVER['REDIRECT_STATUS'] ?? 200;
+
 define('LARAVEL_START', microtime(true));
 
 // Determine if the application is in maintenance mode...

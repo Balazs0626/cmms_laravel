@@ -17,6 +17,7 @@ use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use TomatoPHP\FilamentLogger\Facades\FilamentLogger;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -27,6 +28,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->plugin(\TomatoPHP\FilamentLogger\FilamentLoggerPlugin::make())
             ->colors([
                 'primary' => Color::Amber,
             ])
